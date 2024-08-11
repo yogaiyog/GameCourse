@@ -36,8 +36,7 @@ export default function Overview() {
             alt=""
             className="w-full md:w-1/2 object-cover shadow-xl rounded-lg"
           />
-          <div className="flex-1">
-            <h1 className="text-3xl font-bold py-5 md:py-10">Gaming LevelUp!</h1>
+          <div className="">
             <p>
               Our team comprises experienced esports coaches, gaming enthusiasts,
               and industry professionals who share a common goal: to nurture and
@@ -48,15 +47,6 @@ export default function Overview() {
               the best possible training tailored to their individual needs.
             </p>
             <br />
-            <p>
-              At GameCourse, we foster a culture of inclusivity, innovation, and
-              excellence. We believe that gaming is more than just a hobby; it’s
-              a discipline that requires dedication, strategy, and continuous
-              learning. Our community is built on mutual respect and a shared
-              passion for gaming. We encourage collaboration, critical thinking,
-              and creativity, ensuring that every member feels valued and
-              supported in their journey to becoming a better gamer.
-            </p>
           </div>
         </div>
       </div>

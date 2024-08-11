@@ -1,3 +1,5 @@
+
+
 export default function BriefPrograms() {
     const programs = [
       {
@@ -23,11 +25,12 @@ export default function BriefPrograms() {
     ];
   
     return (
-      <div className="bg-indigo-600 min-h-screen py-16">
+      <div className="bg-violet-600 min-h-screen py-16">
         <div className="text-center mb-12">
           <h1 className="text-3xl text-slate-200">Our selection of</h1>
           <h1 className="text-4xl font-bold text-white">Coaching Programs</h1>
         </div>
+          
         <div className="flex flex-wrap justify-center gap-8 px-8">
           {programs.map((program, index) => (
             <div key={index} className="card bg-white rounded-lg shadow-lg p-6 max-w-xs flex flex-col justify-between">
@@ -46,6 +49,7 @@ export default function BriefPrograms() {
             </div>
           ))}
         </div>
+        
       </div>
     );
   }
